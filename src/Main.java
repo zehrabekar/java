@@ -1,9 +1,21 @@
 public class Main {
     public static void main(String[] args) {
+        /*
         System.out.println("java öğreniyorum");
         System.out.print("zehra bekar");
         System.out.print("java dersleri \n"); // üst satırla yanyana yazdı. fakat sondaki \n karakteri sebebiyle imleci alt satıra aldı
         System.out.println("ilk projemiz");
+        */
+
+        int birinciSayi = 15;
+        int ikinciSayi ;
+
+        ikinciSayi = 30;
+        birinciSayi = 50;
+
+        int sayi1 =10, sayi2=20;
+
+        System.out.println("birinci sayının değeri : " + birinciSayi + " , ikinci sayının değeri : " + ikinciSayi);
     }
 }
 
@@ -31,7 +43,29 @@ hatalı kullanım örneği (değişken) : int void = 10 -> yapılamaz
 * System.out.println(); -> imleci bir alt satıra alır
  System.out.print(); imleci aynı satırda bırakır
 
-
-
-
 */
+//2.ders-değişkenler
+/*
+-sayi1 ile Sayi1 farklı değişken isimleridir. büyük/küçük harf duyarlılığı vardır
+-aynı kod bloğu içinde (süslü parantez) aynı isimde değişken tanımlanamaz
+- boşluk, /,*,-,+ gibi karakterleri isimlendirmede kullanamayız
+-değişken tanımlama formülü :
+değişkentürü değişkenadı = değeri
+örnek: int sayi = 10
+-değişken isimlendirme rakamla başlayamaz
+
+-javadaki sayısal veri tipleri ve küçükten büyüğe hafızada kapladığı alan sıralaması:
+byte - short - int - long - float - double
+
+-literal kavramı: programın içinde tanımlı olan sabit değerlere denir.(36,524200,5.9)
+int i = 36;
+long y = 524200;
+double v = 5.9;
+
+-float bir değer için f/F, double için d/D kullanmalıyız. örnek :
+float :250.5f
+double : 524.985d
+
+-sayısal veri tipleri kullanılırken ilk değer atanmazsa java otomatik 0 değerini atar.
+
+ */
