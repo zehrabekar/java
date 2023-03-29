@@ -1,3 +1,5 @@
+import jdk.swing.interop.SwingInterOpUtils;
+
 public class Main {
     public static void main(String[] args) {
         /*
@@ -16,7 +18,24 @@ public class Main {
         int sayi1 =10, sayi2=20;
 
         System.out.println("birinci sayının değeri : " + birinciSayi + " , ikinci sayının değeri : " + ikinciSayi);
+
+        char harf = 'a';
+        System.out.println("harf : " + harf);
+
+        int integerDeger = 'A';
+        System.out.println("integer değer : " + integerDeger);
+        // çıktı olarak 65 dedi. burada harfi değil harfin karşılığı unicode değeri saklanır.
+
+        boolean sonuc = true;
+        System.out.println(" boolean sonuc :" + sonuc); // true
+        sonuc = false;
+        System.out.println(" boolean sonuc :" + sonuc); // false
+
+        //veri türlerinin alacağı min ve max değeri bulma :
+        System.out.println("en büyük integer değer:" + Integer.MAX_VALUE + " en küçük değer : " + Integer.MIN_VALUE);
+
     }
+
 }
 
 /*
@@ -44,7 +63,7 @@ hatalı kullanım örneği (değişken) : int void = 10 -> yapılamaz
  System.out.print(); imleci aynı satırda bırakır
 
 */
-//2.ders-değişkenler
+//değişkenler
 /*
 -sayi1 ile Sayi1 farklı değişken isimleridir. büyük/küçük harf duyarlılığı vardır
 -aynı kod bloğu içinde (süslü parantez) aynı isimde değişken tanımlanamaz
@@ -62,10 +81,44 @@ int i = 36;
 long y = 524200;
 double v = 5.9;
 
--float bir değer için f/F, double için d/D kullanmalıyız. örnek :
+-float bir değer için f/F, double için d/D kullanmalıyız.Harf belirtmezsek java double olarak algılar. örnek :
 float :250.5f
 double : 524.985d
 
 -sayısal veri tipleri kullanılırken ilk değer atanmazsa java otomatik 0 değerini atar.
+
+-char ve boolean da primitive veri türleridir.
+
+**char veri tipi :
+tek tırnak iinde tek karakter yazılarak kullanılır.
+char birHarf = 'e';
+char birSayi = '4'; // buradaki 4 tam sayı olan 4 değil bir karakter olarak algılanır
+- bir char değişkenine  ilk atama yapılmazsa java otomatik '\u0000' nicode değerini atar
+
+**boolean veri tipi :
+sadece true / false değerini alır
+ilk değer atanmazsa otomatik false değeri atanır
+boolean ciftSayiMi = true;
+
+ primitive = ilkel veri türü : hafızada tutacağı yerin belli olduğu veri türleridir.
+ */
+
+//wrapper kapsayıcı sınıflar
+/*
+-yukarıdaki veri türleri java tarafından nesne olarak algılanmamaktadır
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  */
