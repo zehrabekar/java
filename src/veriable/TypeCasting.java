@@ -30,8 +30,31 @@ public class TypeCasting {
 tip dönüşümleri
 -javada küçük olan tamsayı veri türü otomatik olarak büyük olan veri türüne dönüştürülür.
 long veri tipine sahip değişkene integer bir sayı atayabiliriz
--tam sayı tutan byte, short, int, long veri tipine sahip değişkenlere noktalı ifadeler içere float ve double değerler
+-tam sayı tutan byte, short, int, long veri tipine sahip değişkenlere noktalı ifadeler içeren float ve double değerler
 atanamaz. böyle dürümda virgülden sonraki kısım kaybedilir. örnek :
 int sayi = (int) 7,75 (sayi değişkenine atanan değer 7 olur)
 
  */
+
+/*
+ Programlamada yazdığımız her bir satır kod “statament”tır diyebiliriz çünkü statementlar, programımızdaki komutları,
+eylemleri temsil etmektedirler. Örneğin atama işlemleri, yazdırma işlemleri, değişken tanımlama vb…
+Program yazarken değer döndüren bazı satırlar yazarız işte bunlar ise “expressionlar”dır.
+Java’da değişken başlatma yani tanımlayıp atama işlemi birlikte yapıldığında statement kabul edilir.
+Ancak sadece değer ataması yapmak expressiondır.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

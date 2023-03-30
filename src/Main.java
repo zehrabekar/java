@@ -93,7 +93,7 @@ double : 524.985d
 tek tırnak iinde tek karakter yazılarak kullanılır.
 char birHarf = 'e';
 char birSayi = '4'; // buradaki 4 tam sayı olan 4 değil bir karakter olarak algılanır
-- bir char değişkenine  ilk atama yapılmazsa java otomatik '\u0000' nicode değerini atar
+- bir char değişkenine  ilk atama yapılmazsa java otomatik '\u0000' unicode değerini atar
 
 **boolean veri tipi :
 sadece true / false değerini alır
@@ -104,21 +104,5 @@ boolean ciftSayiMi = true;
  */
 
 //wrapper kapsayıcı sınıflar
-/*
--yukarıdaki veri türleri java tarafından nesne olarak algılanmamaktadır
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- */
+//yukarıdaki veri türleri java tarafından nesne olarak algılanmamaktadır
