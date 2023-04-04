@@ -23,7 +23,7 @@ public class KullanicidanVeriAlma {
         System.out.println("girilen isim soyisim: " + isimSoyisim);*/
         /* bu şekilde next(); ve nextLine(); i art arda yazınca next için girdiğim iki kelimelik değerin önce ilk kelimesini, daha sonra ikisini birden gösterdi
         yani nextline için değer girmemi beklemedi. bu hatayı düzeltmek için next ve nextline arasına  tara.nextLine(); yazıp boş çalıştırmalıyız  */
-
+/*
         String isim = tara.next();
         System.out.println("girilen isim : " + isim);
 
@@ -35,6 +35,7 @@ public class KullanicidanVeriAlma {
         //tara.nextChar(); YOK. bu yüzden next().charAt() kullanabiliriz. burada charAt() içine ilgilendiğimiz harfe ulaşmak için girdiğimiz metinde o harfin index no yazmalıyız
         char harf = tara.next().charAt(0);
         System.out.println("girilen harf : " +harf); // zehra yazdım girilen harf : z çıktısını verdi
+*/
 
     }
 }
