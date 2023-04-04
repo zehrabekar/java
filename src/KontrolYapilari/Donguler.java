@@ -42,6 +42,7 @@ public class Donguler {
                 } */
 
           //break:
+        /*
           distakiFor:
             for ( int i=0; i<5; i++) {
                 icerdekiFor:
@@ -52,7 +53,7 @@ public class Donguler {
                     }
 
                 }
-            }
+            }*/
         //burada for döngülerine içteki ve dıştaki diye etiketleyip break komutunun hangi for için çalışacağını yazdık
         //eğer etiket vermeseydik break komutu içteki for için çalışacaktı
 

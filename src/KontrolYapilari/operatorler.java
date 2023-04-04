@@ -1,3 +1,5 @@
+package KontrolYapilari;
+
 public class operatorler {
     public static void main(String[] args) {
         /* mantıksal operatörler :
