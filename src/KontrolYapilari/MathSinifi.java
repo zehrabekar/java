@@ -2,6 +2,7 @@ package KontrolYapilari;
 
 public class MathSinifi {
     public static void main(String[] args) {
+        /*
         System.out.println("pi sayısı : " + Math.PI); //3.141592653589793
         System.out.println("e sayısı : " + Math.E); //2.718281828459045
         System.out.println("-5 in mutlak değeri : " + Math.abs(-5)); //5
@@ -23,7 +24,7 @@ public class MathSinifi {
         System.out.println("sayı : " + sayi);
 
         // 0 dahil 100'e kadar sayi üretmek istiyorsak : Math.random() * 101 (üst sınır +1)
-        // 0 hariç 100'e kadar sayi üretmek istiyorsak : Math.random() * 100 + 1  ( ( Math.random() * 100 )+ 1 )
+        // 0 hariç 100'e kadar sayi üretmek istiyorsak : Math.random() * 100 + 1  ( ( Math.random() * 100 )+ 1 )*/
     }
 }
 /* Math Sınıfı :
@@ -42,21 +43,3 @@ Math.random() : rastgele sayı üretmek için kullanılır.0 ve 1 arasında doub
 0-0.9999999999 arasında sayı üretir
 
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
