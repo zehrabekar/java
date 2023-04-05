@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BolumSonuSorular {
     public static void main(String[] args) {
-
+/*
         // vücut kitle endeksini hesaplayan program. endex = (kilo / ((boy/100)karesi) )
         System.out.println("vücut kitle endex programına hoşgeldiniz");
         System.out.println("boyunuzu cm cinsinden giriniz");
@@ -47,7 +47,7 @@ public class BolumSonuSorular {
         -sadece bir basamağını bilirse 100 tl
          */
 
-
+/*
         Scanner sayi = new Scanner(System.in);
 
         int sistemSayisi = (int) (Math.random() * 99 + 1);
@@ -71,7 +71,7 @@ public class BolumSonuSorular {
         }else{
             System.out.println("maalesef bir şey kazanamadınız");
         }
-
+*/
 
     }
 }
