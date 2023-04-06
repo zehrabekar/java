@@ -17,8 +17,11 @@ public class sorular {
         System.out.println("ortalaması alınacak sayılardan üçüncüyü giriniz");
         int sayi3 = deger.nextInt();
 
-        double ortalama = (sayi1 + sayi2 + sayi3) / 3;
-        System.out.println("ortalama : " + ortalama);
+        double ortalama = (sayi1 + sayi2 + sayi3) / 3.0; //küsürü görebilmek için bölme işleminin en az bir tarafını double'a çevirmemiz lazım
+        // System.out.println("ortalama : " + ortalama);
+        // System.out.printf(""); formatlı şekilde yazdır demektir.
+        // virgülden sonra sadece iki rakam görünsün istersek :
+        System.out.printf("%.2f",ortalama);
 
 
         //2:
@@ -104,8 +107,7 @@ public class sorular {
         }
         System.out.println("girdiğiniz sayının faktöriyeli : " + sonuc);
 
-
-        //8: çalışmadı düzenlenecek
+        //8:
         System.out.println("x değeri giriniz");
         int x = deger.nextInt();
 
@@ -120,11 +122,82 @@ public class sorular {
             hesap = (2*x)-(y)+3;
         }else if(x<0 && y>0){
             hesap = (3*x)+(4*y)+3;
+        }else{
+            System.out.println("x ve ynin 0dan büyük olduğu durumlarda sonuç 0dır.");
         }
         System.out.println("x değeri : " + x + ", y değeri : " + y + ", sonuc : " + hesap);
-*/
+
 
         //9:
+        System.out.println("notunuzu giriniz");
+        int not = deger.nextInt();
+        int harfNotu = not/10;
+        System.out.println("notunuz : " + not );
+
+        switch (harfNotu){
+            case 10 :  System.out.println("harf notunuz AA"); break;
+            case 9 :  System.out.println("harf notunuz AA"); break;
+            case 8:  System.out.println("harf notunuz BA"); break;
+            case 7 :  System.out.println("harf notunuz BB"); break;
+            case 6 :  System.out.println("harf notunuz BC"); break;
+            case 5 :  System.out.println("harf notunuz CC"); break;
+            case 4 :  System.out.println("harf notunuz CD"); break;
+            case 3 :  System.out.println("harf notunuz DD"); break;
+
+        }
+
+
+            //10
+            String yazdirilacakMetin="";
+            for(int i=1; i<=10; i++){
+
+                for(int j=1; j<=10;j++){
+                    yazdirilacakMetin = yazdirilacakMetin +(i + "*" + j) + "=" + (i*j) + "\t";
+                }
+            }
+             System.out.println(yazdirilacakMetin);
+
+
+        //11: çalışmıyor düzeltilecek
+        int uretilenSayi = (int) Math.random() * 101 ;
+        int tahmin = -1;
+        int tahminSayisi = 0;
+
+        while(tahmin!=uretilenSayi){
+            tahmin = deger.nextInt();
+            tahminSayisi++;
+        }
+
+        if(tahmin==uretilenSayi){
+            System.out.println("tebrikler,bildiniz. üretilen sayı " + uretilenSayi + " , tahmininiz" + tahmin + "tahmin sayınız " + tahminSayisi);
+        }else if(tahmin < uretilenSayi){
+            System.out.println("daha yüksek bir sayı tahmin ediniz");
+        } else if (tahmin > uretilenSayi) {
+            System.out.println("daha düşük bir sayı tahmin ediniz");
+        }
+
+        //12:
+        System.out.println("sayı giriniz");
+        int girilenSayi = deger.nextInt();
+        int carpimSonucu = 1;
+
+        while (girilenSayi!=0){
+            carpimSonucu = carpimSonucu * girilenSayi;
+            girilenSayi = deger.nextInt();
+        }
+        System.out.println("çarpım sonucu : " + carpimSonucu);
+
+
+
+
+*/
+
+        //13:
+
+
+
+
+
 
 
     }
@@ -149,4 +222,6 @@ için uyaralım. kullanıcı sayıyı bulana kadar tahmin etmeye devam etsin ve 
 12-kullanıcıdan sürekli sayı alan ve 0a bastığında girilen sayıların çarpımını sonuç olarak gösteren uygulama
 13-kullanıcıdan aldığımız iki int değerin ebobunu bulan uygulama
 14-girilen bir metnin polindrom olup olmadığını kontrol eden uygulama (polindrom : tersten okunuşu ile düz okunuşu aynı olan kelimeler. örnek :kaçak)
+15-kullanıcıdan alınan integer değere kadar olan asal sayıları yazdıran program
+16-1+2+4+7+11+16+20+23+25+26+28+31+35=? işleminin sonucunu bulan uygulama
  */
